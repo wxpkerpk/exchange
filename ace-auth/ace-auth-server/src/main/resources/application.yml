@@ -9,7 +9,6 @@ spring:
         database: 1
         host: ${REDIS_HOST:120.79.250.164}
         port: ${REDIS_PORT:6379}
-        pool:
         max-active: 20
         password: wxpker
     datasource:

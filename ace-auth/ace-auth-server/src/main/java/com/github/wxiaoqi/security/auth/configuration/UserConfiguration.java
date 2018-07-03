@@ -13,4 +13,8 @@ import org.springframework.context.annotation.Configuration;
 public class UserConfiguration {
     @Value("${jwt.token-header}")
     private String userTokenHeader;
+
+    public String getUserTokenHeader() {
+        return userTokenHeader;
+    }
 }

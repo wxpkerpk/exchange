@@ -117,9 +117,15 @@ auth:
 
 #redis-cache 相关
 redis:
-      database: 1
-      host: ${REDIS_HOST:120.79.250.164}
-      port: ${REDIS_PORT:6379}
-      pool: 20
-      max-active: 20
-      password: wxpker
+    pool:
+         maxActive: 300
+         maxIdle: 100
+         maxWait: 1000
+    host: ${REDIS_HOST:120.79.250.164}
+    port:  ${REDIS_PORT:6379}
+    password:
+    timeout: 2000
+    # 服务或应用名
+    sysName: ace-admin
+    enable: true
+    database: 0

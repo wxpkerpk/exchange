@@ -15,9 +15,9 @@
         </plugin>
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/ag_auth?useUnicode=true&amp;characterEncoding=UTF8"
+                        connectionURL="jdbc:mysql://120.79.250.164:3306/ag_auth?useUnicode=true&amp;characterEncoding=UTF8"
                         userId="root"
-                        password="123456">
+                        password="wxpker">
         </jdbcConnection>
 
         <javaModelGenerator targetPackage="${targetModelPackage}" targetProject="${targetJavaProject}"/>
