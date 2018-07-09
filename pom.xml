@@ -22,7 +22,7 @@
         <version>2.0.0.RELEASE</version>
     </parent>
     <properties>
-        <docker.image.prefix>ag</docker.image.prefix>
+        <docker.image.prefix>a</docker.image.prefix>
         <docker.plugin.version>0.4.13</docker.plugin.version>
         <mapper.version>3.4.0</mapper.version>
         <maven.compile.source>1.8</maven.compile.source>

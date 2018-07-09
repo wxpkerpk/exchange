@@ -85,7 +85,7 @@ eureka:
         healthCheckUrlPath: /actuator/health
         # docker 部署开启
         prefer-ip-address: true
-        ip-address: 127.0.0.1
+        ip-address: localhost
     client:
         serviceUrl:
 #            defaultZone: http://localhost:8761/eureka/

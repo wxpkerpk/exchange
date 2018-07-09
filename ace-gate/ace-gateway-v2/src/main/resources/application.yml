@@ -1,6 +1,11 @@
 server:
   port: 8765
 
+
+ribbon.ReadTimeout: 120000
+#请求连接的超时时间
+ribbon.ConnectTimeout: 30000
+
 eureka:
     instance:
         statusPageUrlPath: /actuator/info
@@ -8,7 +13,7 @@ eureka:
         home-page-url-path: /
         # docker 部署开启
 #        prefer-ip-address: true
-#        ip-address: 127.0.0.1
+        ip-address: localhost
     client:
         serviceUrl:
 #            defaultZone: http://localhost:8761/eureka/
